@@ -58,5 +58,23 @@ namespace Employee_Management_System
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            frmDashboad frm = new frmDashboad();
+            frm.TopLevel = false;
+            panel4.Controls.Add(frm);
+            frm.BringToFront();
+            frm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmEmployeeDetails frm = new frmEmployeeDetails();
+            frm.TopLevel = false;
+            panel4.Controls.Add(frm);
+            frm.BringToFront();
+            frm.Show();
+        }
     }
 }
