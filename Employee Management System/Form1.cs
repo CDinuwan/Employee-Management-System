@@ -34,7 +34,7 @@ namespace Employee_Management_System
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            panel3.Width = 50;
+            panel3.Width = 45;
             frmDashboad frm = new frmDashboad();
             frm.TopLevel = false;
             panel4.Controls.Add(frm);
@@ -44,14 +44,19 @@ namespace Employee_Management_System
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
-            if(panel3.Width==50)
+            if(panel3.Width==45)
             {
                 panel3.Width = 250;
             }
             else
             {
-                panel3.Width = 50;
+                panel3.Width = 45;
             }
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
