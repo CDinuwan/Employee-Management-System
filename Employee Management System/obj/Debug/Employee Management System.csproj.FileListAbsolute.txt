@@ -10,3 +10,4 @@ C:\Users\hecdi\Desktop\Employee Management System\Employee Management System\obj
 C:\Users\hecdi\Desktop\Employee Management System\Employee Management System\obj\Debug\Employee Management System.pdb
 C:\Users\hecdi\Desktop\Employee Management System\Employee Management System\obj\Debug\Employee_Management_System.frmDashboad.resources
 C:\Users\hecdi\Desktop\Employee Management System\Employee Management System\obj\Debug\Employee_Management_System.frmEmployeeDetails.resources
+C:\Users\hecdi\Desktop\Employee Management System\Employee Management System\obj\Debug\Employee_Management_System.frmAddEmployee.resources

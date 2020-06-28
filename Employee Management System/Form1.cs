@@ -40,6 +40,7 @@ namespace Employee_Management_System
             panel4.Controls.Add(frm);
             frm.BringToFront();
             frm.Show();
+            btnEmployee.Enabled = false;
         }
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
@@ -47,10 +48,12 @@ namespace Employee_Management_System
             if(panel3.Width==45)
             {
                 panel3.Width = 250;
+                btnEmployee.Enabled = true;
             }
             else
             {
                 panel3.Width = 45;
+                btnEmployee.Enabled = false;
             }
         }
 
@@ -75,6 +78,11 @@ namespace Employee_Management_System
             panel4.Controls.Add(frm);
             frm.BringToFront();
             frm.Show();
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
