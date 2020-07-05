@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tkS8dFtFZAx++BZnJmRsKD1/WF5nueqlo1TujUkblesZqkRKgI7pWvoHFHTk2pVJ05hiFLWPEWOJHer/CoP5SA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hecdi\\Desktop\\Employee Management System\\Employee Management System\\Employee Management System.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hecdi\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
