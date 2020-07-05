@@ -84,5 +84,17 @@ namespace Employee_Management_System
         {
 
         }
+
+        private void btnSalary_Click(object sender, EventArgs e)
+        {
+            frmSlaryDetails frm = new frmSlaryDetails();
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            frmLogIn frm = new frmLogIn();
+            frm.Show();
+        }
     }
 }

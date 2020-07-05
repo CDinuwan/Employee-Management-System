@@ -60,6 +60,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAddSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddSalary.Designer.cs">
+      <DependentUpon>frmAddSalary.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDashboad.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,12 @@
     <Compile Include="frmLogIn.Designer.cs">
       <DependentUpon>frmLogIn.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSlaryDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSlaryDetails.Designer.cs">
+      <DependentUpon>frmSlaryDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -85,6 +97,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAddEmployee.resx">
       <DependentUpon>frmAddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddSalary.resx">
+      <DependentUpon>frmAddSalary.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDashboad.resx">
       <DependentUpon>frmDashboad.cs</DependentUpon>
@@ -94,6 +109,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogIn.resx">
       <DependentUpon>frmLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSlaryDetails.resx">
+      <DependentUpon>frmSlaryDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

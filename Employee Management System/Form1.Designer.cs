@@ -110,6 +110,7 @@
             this.btnLogout.TabIndex = 8;
             this.btnLogout.Text = "Log out";
             this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // btnEmployee
             // 
@@ -204,6 +205,7 @@
             this.btnSalary.TabIndex = 3;
             this.btnSalary.Text = "Salary Details";
             this.btnSalary.UseVisualStyleBackColor = true;
+            this.btnSalary.Click += new System.EventHandler(this.btnSalary_Click);
             // 
             // panel8
             // 

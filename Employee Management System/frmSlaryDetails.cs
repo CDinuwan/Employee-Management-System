@@ -10,23 +10,16 @@ using System.Windows.Forms;
 
 namespace Employee_Management_System
 {
-    public partial class frmLogIn : Form
+    public partial class frmSlaryDetails : Form
     {
-        public frmLogIn()
+        public frmSlaryDetails()
         {
             InitializeComponent();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form1 frm = new Form1();
-            frm.Show();
+            this.Dispose();
         }
     }
 }
