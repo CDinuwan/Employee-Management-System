@@ -17,3 +17,5 @@ C:\Users\hecdi\Desktop\Employee Management System\Employee Management System\bin
 C:\Users\hecdi\Desktop\Employee Management System\Employee Management System\obj\Debug\Employee_Management_System.frmLogIn.resources
 C:\Users\hecdi\Desktop\Employee Management System\Employee Management System\obj\Debug\Employee_Management_System.frmSlaryDetails.resources
 C:\Users\hecdi\Desktop\Employee Management System\Employee Management System\obj\Debug\Employee Management System.csproj.CopyComplete
+C:\Users\hecdi\Desktop\Employee Management System\Employee Management System\obj\Debug\Employee_Management_System.frmAddSalary.resources
+C:\Users\hecdi\Desktop\Employee Management System\Employee Management System\obj\Debug\Employee_Management_System.frmUserSettings.resources

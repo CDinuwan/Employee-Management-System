@@ -174,6 +174,7 @@
             this.btnUser.TabIndex = 5;
             this.btnUser.Text = "User Settings";
             this.btnUser.UseVisualStyleBackColor = true;
+            this.btnUser.Click += new System.EventHandler(this.btnUser_Click);
             // 
             // btnDashboard
             // 
