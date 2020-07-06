@@ -16,5 +16,26 @@ namespace Employee_Management_System
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public void Clear()
+        {
+            txtEmpId.Clear();
+            txtName.Clear();
+            txtSalary.Clear();
+        }
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Clear();
+        }
     }
 }

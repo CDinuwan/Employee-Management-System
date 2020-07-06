@@ -21,5 +21,11 @@ namespace Employee_Management_System
         {
             this.Dispose();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            frmAddSalary frm = new frmAddSalary();
+            frm.Show();
+        }
     }
 }
