@@ -100,6 +100,9 @@ namespace Employee_Management_System
         private void btnUser_Click(object sender, EventArgs e)
         {
             frmUserSettings frm = new frmUserSettings();
+            frm.TopLevel = false;
+            panel4.Controls.Add(frm);
+            frm.BringToFront();
             frm.Show();
         }
     }
