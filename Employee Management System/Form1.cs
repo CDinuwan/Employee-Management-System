@@ -88,6 +88,10 @@ namespace Employee_Management_System
         private void btnSalary_Click(object sender, EventArgs e)
         {
             frmSlaryDetails frm = new frmSlaryDetails();
+            frm.TopLevel = false;
+            panel4.Controls.Add(frm);
+            frm.BringToFront();
+            frm.Show();
         }
 
         private void btnLogout_Click(object sender, EventArgs e)

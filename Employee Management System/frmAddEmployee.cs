@@ -73,5 +73,10 @@ namespace Employee_Management_System
         {
             Clear();
         }
+
+        private void frmAddEmployee_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
