@@ -17,10 +17,12 @@ namespace Employee_Management_System
         SqlCommand cm = new SqlCommand();
         SqlDataReader dr;
         DBConnection dbcon = new DBConnection();
-        public frmAddSalary()
+        frmSlaryDetails frm = new frmSlaryDetails();
+        public frmAddSalary(frmSlaryDetails f)
         {
             InitializeComponent();
-            SqlConnection con = new SqlConnection(dbcon.MyCon());
+            con = new SqlConnection(dbcon.MyCon());
+            frm = f;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -60,6 +62,31 @@ namespace Employee_Management_System
         private void btnCancel_Click(object sender, EventArgs e)
         {
             Clear();
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if(MessageBox.Show("Are you sure you want to update this record?","Update",MessageBoxButtons.YesNo,MessageBoxIcon.Question)==DialogResult.Yes)
+                {
+                    con.Open();
+                    cm = new SqlCommand("update tblSalary set emp_id=@emp_id,name=@name,salary=@salary", con);
+                    cm.Parameters.AddWithValue("@emp_id", txtEmpId.Text);
+                    cm.Parameters.AddWithValue("@name", txtName.Text);
+                    cm.Parameters.AddWithValue("@salary", txtSalary.Text);
+                    cm.ExecuteNonQuery();
+                    MessageBox.Show("Your record has been successfully updated!");
+                    con.Close();
+                    Clear();
+                    frm.LoadRecord();
+                    this.Dispose();
+                }
+            }
+            catch(Exception er)
+            {
+                MessageBox.Show(er.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

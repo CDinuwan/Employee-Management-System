@@ -42,9 +42,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(115, 50);
+            this.pictureBox1.Location = new System.Drawing.Point(66, 30);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(170, 175);
+            this.pictureBox1.Size = new System.Drawing.Size(129, 126);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -56,7 +56,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(400, 261);
+            this.panel1.Size = new System.Drawing.Size(266, 183);
             this.panel1.TabIndex = 1;
             // 
             // btnExit
@@ -66,9 +66,9 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.White;
-            this.btnExit.Location = new System.Drawing.Point(12, 462);
+            this.btnExit.Location = new System.Drawing.Point(12, 362);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(376, 50);
+            this.btnExit.Size = new System.Drawing.Size(242, 35);
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
@@ -80,7 +80,7 @@
             // 
             // 
             this.txtUsername.CustomButton.Image = null;
-            this.txtUsername.CustomButton.Location = new System.Drawing.Point(338, 2);
+            this.txtUsername.CustomButton.Location = new System.Drawing.Point(204, 2);
             this.txtUsername.CustomButton.Name = "";
             this.txtUsername.CustomButton.Size = new System.Drawing.Size(35, 35);
             this.txtUsername.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -93,7 +93,7 @@
             this.txtUsername.FontWeight = MetroFramework.MetroTextBoxWeight.Bold;
             this.txtUsername.Icon = ((System.Drawing.Image)(resources.GetObject("txtUsername.Icon")));
             this.txtUsername.Lines = new string[0];
-            this.txtUsername.Location = new System.Drawing.Point(12, 291);
+            this.txtUsername.Location = new System.Drawing.Point(16, 216);
             this.txtUsername.MaxLength = 32767;
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.PasswordChar = '\0';
@@ -103,7 +103,7 @@
             this.txtUsername.SelectionLength = 0;
             this.txtUsername.SelectionStart = 0;
             this.txtUsername.ShortcutsEnabled = true;
-            this.txtUsername.Size = new System.Drawing.Size(376, 40);
+            this.txtUsername.Size = new System.Drawing.Size(242, 40);
             this.txtUsername.TabIndex = 5;
             this.txtUsername.UseSelectable = true;
             this.txtUsername.WaterMark = "Username";
@@ -116,7 +116,7 @@
             // 
             // 
             this.metroTextBox1.CustomButton.Image = null;
-            this.metroTextBox1.CustomButton.Location = new System.Drawing.Point(338, 2);
+            this.metroTextBox1.CustomButton.Location = new System.Drawing.Point(204, 2);
             this.metroTextBox1.CustomButton.Name = "";
             this.metroTextBox1.CustomButton.Size = new System.Drawing.Size(35, 35);
             this.metroTextBox1.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -129,7 +129,7 @@
             this.metroTextBox1.FontWeight = MetroFramework.MetroTextBoxWeight.Bold;
             this.metroTextBox1.Icon = ((System.Drawing.Image)(resources.GetObject("metroTextBox1.Icon")));
             this.metroTextBox1.Lines = new string[0];
-            this.metroTextBox1.Location = new System.Drawing.Point(12, 346);
+            this.metroTextBox1.Location = new System.Drawing.Point(15, 266);
             this.metroTextBox1.MaxLength = 32767;
             this.metroTextBox1.Name = "metroTextBox1";
             this.metroTextBox1.PasswordChar = '\0';
@@ -139,7 +139,7 @@
             this.metroTextBox1.SelectionLength = 0;
             this.metroTextBox1.SelectionStart = 0;
             this.metroTextBox1.ShortcutsEnabled = true;
-            this.metroTextBox1.Size = new System.Drawing.Size(376, 40);
+            this.metroTextBox1.Size = new System.Drawing.Size(242, 40);
             this.metroTextBox1.TabIndex = 6;
             this.metroTextBox1.UseSelectable = true;
             this.metroTextBox1.WaterMark = "Passoword";
@@ -153,9 +153,9 @@
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(12, 406);
+            this.btnLogin.Location = new System.Drawing.Point(12, 321);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(376, 50);
+            this.btnLogin.Size = new System.Drawing.Size(242, 36);
             this.btnLogin.TabIndex = 7;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -166,7 +166,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(400, 524);
+            this.ClientSize = new System.Drawing.Size(266, 413);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.metroTextBox1);
             this.Controls.Add(this.txtUsername);
