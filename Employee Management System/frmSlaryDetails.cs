@@ -50,6 +50,18 @@ namespace Employee_Management_System
                     frm.txtSalary.Text = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
                     frm.ShowDialog();
                 }
+                else if(colName=="Delete")
+                {
+                    if(MessageBox.Show("Are you sure you want to delete this record?","Delete",MessageBoxButtons.YesNo,MessageBoxIcon.Question)==DialogResult.Yes)
+                    {
+                        con.Open();
+                        cm = new SqlCommand("Delete from tblSalary where emp_id like '"+ dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString() + "'",con);
+                        cm.ExecuteNonQuery();
+                        con.Close();
+                        MessageBox.Show("Your record has been successfully deleted!");
+                        LoadRecord();
+                    }
+                }
             }catch(Exception er)
             {
                 MessageBox.Show(er.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
