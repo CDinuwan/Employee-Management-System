@@ -64,7 +64,7 @@ namespace Employee_Management_System
 
         private void button3_Click(object sender, EventArgs e)
         {
-            frmDashboad frm = new frmDashboad();
+             frmDashboad frm = new frmDashboad();
             frm.TopLevel = false;
             panel4.Controls.Add(frm);
             frm.BringToFront();
